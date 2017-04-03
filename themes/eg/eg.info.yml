@@ -1,0 +1,24 @@
+name: Elegant Garden
+type: theme
+base theme: classy
+description: 'Fresh Garden Theme'
+core: 8.x
+screenshot: screenshot.png
+
+libraries:
+  - eg/eg-css
+  - eg/quicksand
+  - core/normalize
+
+
+regions:
+  header: Header
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: Left Sidebar
+  sidebar_second: Right Sidebar
+  front: Front Page Blocks
+  footer: Footer
+  page_top: Footer
+  page_bottom: Page bottom

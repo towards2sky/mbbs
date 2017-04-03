@@ -1,0 +1,5 @@
+name: Education
+type: theme
+base theme: drupal8_zymphonies_theme
+description: 'Fresh Garden Theme'
+core: 8.x
