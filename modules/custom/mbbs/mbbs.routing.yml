@@ -1,0 +1,7 @@
+mbbs.content:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\mbbs\Controller\FirstController::content'
+    _title: 'My First Page and Meu Item'
+  requirements:
+    _permission: 'access_content'

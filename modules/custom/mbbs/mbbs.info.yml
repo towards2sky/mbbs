@@ -1,0 +1,4 @@
+name: MBBS
+type: module
+core: '8.x'
+description: 'Custom Stuff in MBBS'
