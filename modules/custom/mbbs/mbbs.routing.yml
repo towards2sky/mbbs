@@ -1,5 +1,5 @@
 mbbs.content:
-  path: '/home'
+  path: '/first-page'
   defaults:
     _controller: '\Drupal\mbbs\Controller\FirstController::content'
     _title: 'My First Page and Meu Item'

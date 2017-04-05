@@ -4,9 +4,19 @@
  */
 
 function mbbs_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
-    //print_r($form_id); exit;
+
+    //$node = $form_state->getFormObject()->getEntity();
+    //kint($form['title']);
+
     if($form_id == 'node_admission_form_form'){
+        //drupal_set_title('Suggest a Charity');
 //        kint($form['#title']);
+        $form['#title'] = t("Apply for Admission");
         $form['actions']['submit']['#value'] = t('Submit Application');
+    }
+
+    if($form_id == 'node_quick_apply_form'){
+//        kint($form['#title']);
+        $form['actions']['submit']['#value'] = t('Submit');
     }
 }
