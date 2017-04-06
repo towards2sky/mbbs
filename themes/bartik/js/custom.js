@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 
 	//Main menu
 	$('#main-menu').smartmenus();
-	
+
 	//Mobile menu toggle
 	$('.navbar-toggle').click(function(){
 		$('.region-primary-menu').slideToggle();

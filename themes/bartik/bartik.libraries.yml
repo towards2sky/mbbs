@@ -61,6 +61,8 @@ global-styling:
       css/colors.css: {}
       css/print.css: { media: print }
       css/custom.css: {}
+  js:
+      js/custom.js: {}
 
 messages:
   version: VERSION
