@@ -39,3 +39,33 @@
 .site-footer {
     display: block;
 }
+
+/*bkp css*/
+/*header*/
+.region-header .site-branding{ float: none; margin: 0 auto; text-align: center;}
+.site-branding__name a{ color:#333;}
+.site-branding__text{ text-align:left;}
+/*main navigations*/
+div.sf-accordion-toggle.sf-style-white a{ display:block; background-color:#614017; border:none;}
+div.sf-accordion-toggle.sf-style-white a.sf-expanded, ul.sf-menu.sf-style-white.sf-accordion li.sf-expanded{ background-color:#614017;}
+ul.sf-menu.sf-accordion, ul.sf-menu.sf-accordion ul, ul.sf-menu.sf-accordion li{ border-bottom:1px solid #cfcfcf;}
+ul.sf-menu.sf-accordion li:last-child{ border-bottom:none;}
+ul.sf-menu.sf-style-white a, ul.sf-menu.sf-style-white a:visited, ul.sf-menu.sf-style-white span.nolink{ color:#333; padding:15px 1em; font-weight:600; border-radius:0; margin:0;}
+ul.sf-menu.sf-accordion li ul li{ font-weight:500;}
+ul.sf-menu.sf-accordion li ul li:last-child{ border-bottom:none;}
+ul.menu a.is-active{ background-color:#ececec;}
+ul.sf-menu.sf-accordion li:hover{background-color:#ececec;}
+
+/*form*/
+.webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select,
+.webform-submission-quick-enquiry-for-admission-form input[type="submit"]{ width:100%;}
+
+/*footer*/
+.site-footer{ background-color:#333;}
+@media all and (max-width:767px){
+	/*home page container*/
+	.region-promotion-content #block-homepagebanner{ float:none; width:90%;}
+	.region-promotion-content .webform-submission-quick-enquiry-for-admission-form{ width:100%; float:none;}
+	
+}
+@media all and (min-width:768px){}
