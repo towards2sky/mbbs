@@ -41,7 +41,14 @@
 }
 
 /*bkp css*/
+h1, h2, h3, h4, h5, h6{ font-weight:bold;}
+h1, .h1{ font-size:24px; line-height:1.2;}
+h2, .h2{ font-size:21px; line-height:1.2;}
+h3, .h3 { font-size:18px; line-height:1.2;}
+h4, .h4 { font-size:16px; line-height:1.2;}
+h5, .h5, h6, .h6 {font-size:16px; line-height:1.2;}
 /*header*/
+#header{ background-color: #fff;}
 .region-header .site-branding{ float: none; margin: 0 auto; text-align: center;}
 .site-branding__name a{ color:#333;}
 .site-branding__text{ text-align:left;}
@@ -50,7 +57,7 @@ div.sf-accordion-toggle.sf-style-white a{ display:block; background-color:#61401
 div.sf-accordion-toggle.sf-style-white a.sf-expanded, ul.sf-menu.sf-style-white.sf-accordion li.sf-expanded{ background-color:#614017;}
 ul.sf-menu.sf-accordion, ul.sf-menu.sf-accordion ul, ul.sf-menu.sf-accordion li{ border-bottom:1px solid #cfcfcf;}
 ul.sf-menu.sf-accordion li:last-child{ border-bottom:none;}
-ul.sf-menu.sf-style-white a, ul.sf-menu.sf-style-white a:visited, ul.sf-menu.sf-style-white span.nolink{ color:#333; padding:15px 1em; font-weight:600; border-radius:0; margin:0;}
+ul.sf-menu.sf-style-white a, ul.sf-menu.sf-style-white a:visited, ul.sf-menu.sf-style-white span.nolink{ text-align:left; color:#333; padding:15px 1em; font-weight:600; border-radius:0; margin:0;}
 ul.sf-menu.sf-accordion li ul li{ font-weight:500;}
 ul.sf-menu.sf-accordion li ul li:last-child{ border-bottom:none;}
 ul.menu a.is-active{ background-color:#ececec;}
@@ -59,13 +66,109 @@ ul.sf-menu.sf-accordion li:hover{background-color:#ececec;}
 /*form*/
 .webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select,
 .webform-submission-quick-enquiry-for-admission-form input[type="submit"]{ width:100%;}
+.webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select{ background-color:#f7f7f7; border-radius:3px;}
+.webform-submission-quick-enquiry-for-admission-form input:focus, .webform-submission-quick-enquiry-for-admission-form select:focus{ outline:none; box-shadow:inset 0 0 2px #ddd; background-color:#fff;}
+.button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]{ background-image:none; background-color:#614017; border:none; color:#fff; font-weight:600; font-size:16px; line-height:1.2; padding:10px 15px;}
+.button:hover, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]:hover{ background-color:#563711;}
+.round-image, #block-homepagebanner img{padding:3px; border:1px solid #e4e4e4; border-radius:3px;}
 
-/*footer*/
-.site-footer{ background-color:#333;}
+/*table*/
+.views-view-table caption{ text-align: left; margin-bottom: 20px;}
+.views-view-table caption a{ display:inline-block; border:none;}
+#main-wrapper{ border-top:1px solid #ddd;}
+
+
+/*** Table Styles **/
+
+.views-element-container table {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  padding:0px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+.views-element-container table:last-child{ margin-bottom:20px;}
+.views-element-container table th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:13px;
+  font-weight: 100;
+  padding:10px 5px;
+  text-align:center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+.views-element-container table th:first-child { border-top-left-radius:3px; border-left:none;}
+.views-element-container table th:last-child {border-top-right-radius:3px; border-right:none;}
+.views-element-container table tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#333;
+  font-size:12px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+.views-element-container table tr:first-child {border-top:none;}
+.views-element-container table tr:last-child {border-bottom:none;}
+.views-element-container table tr:nth-child(odd) td {background:#EBEBEB;}
+.views-element-container table tr:last-child td:first-child {border-bottom-left-radius:3px;}
+.views-element-container table tr:last-child td:last-child {border-bottom-right-radius:3px;}
+.views-element-container table td {
+  background:#FFFFFF;
+  padding:10px 5px; 
+  text-align:center;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:13px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+.views-element-container table td:last-child {border-right: 0px;}
+.view-footer{ font-size:16px; font-weight:bold; color:#1B1E24;}
+
+/*OUR SERVICES list style*/
+#main-wrapper .sidebar .block{ padding:0; margin:0; border:none; margin-top:20px;}
+.field--type-text-with-summary ul, .field--type-text-with-summary ul li{ padding:0; margin:0; list-style:none;}
+.field--type-text-with-summary ul li{border-bottom:1px solid #cfcfcf; padding:8px 0;}
+.field--type-text-with-summary ul li:last-child{ border-bottom:none;}
+
+.site-footer{ background-color:#1B1E24; padding:30px 0;}
+.site-footer .block{ border:none; margin:0;}
+.site-footer .content{ font-size:14px;}
+.site-footer .field--type-text-with-summary ul li{border-color:#3d4045;}
+.site-footer .content ol:not(.menu), .site-footer .content ul:not(.menu){ padding-left:0;}
+.site-footer h2{ margin-top:0; padding-bottom:15px;}
+.site-footer__top p{ margin-bottom:0;}
+.site-footer__bottom{ margin-top:20px;}
+.site-footer__bottom .content{ padding:0;}
+.site-footer__bottom p{ margin:0;}
 @media all and (max-width:767px){
 	/*home page container*/
-	.region-promotion-content #block-homepagebanner{ float:none; width:90%;}
+	.region-promotion-content #block-homepagebanner{ float:none; width:100%;}
 	.region-promotion-content .webform-submission-quick-enquiry-for-admission-form{ width:100%; float:none;}
+	/*table*/
+	#page-wrapper .promotion-content{ margin:0;}
+	#page-wrapper  .promotion-content.layout-container{ padding:0;}
+	#page-wrapper .form-item{ margin-top:0;}
+}
+@media all and (min-width:768px){
+   h1, .h1{ font-size:30px; line-height:1.2;}
+   h2, .h2{ font-size:26px; line-height:1.2;}
+   h3, .h3{font-size:24px; line-height:1;}
+   h4, .h4 { font-size:21px; line-height:1;}
+   h5, .h5, h6, .h6{ font-size:18px; line-height:1.2;}
+   
+   /*main menu*/
+   ul.sf-menu.sf-style-white{ float:none; text-align:center; background-color:#614017;}
+   ul.sf-menu li{ float:none; display:inline-block;}
+   
+   /*footer section*/
+   .site-footer__top h2{ font-size:21px;}
+
 	
 }
-@media all and (min-width:768px){}
