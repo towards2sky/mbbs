@@ -150,9 +150,10 @@ input[type="number"]{ width:98%;}
 .site-footer__bottom .content{ padding:0;}
 .site-footer__bottom p{ margin:0;}
 .limited-seat-available a, .limited-seat-available a:hover, .limited-seat-available a:active, .limited-seat-available a:visited{ color:#fff; text-decoration:none; border:none;}
-/*contact us page*/
-#contact-message-feedback-form .contact-form #edit-name, #contact-message-feedback-form .contact-form #edit-mail{ width:100%;}
-#contact-message-feedback-form .contact-form textarea{ max-height:190px;}
+/*contact us or admission page*/
+#contact-message-feedback-form #edit-name, #contact-message-feedback-form #edit-mail{ width:100%;}
+#contact-message-feedback-form textarea{ max-height:190px;}
+
 
 @media all and (max-width:767px){
 	/*home page container*/
@@ -206,12 +207,20 @@ input[type="number"]{ width:98%;}
    #webform-submission-apply-for-admission-form .form-item-mobile-number,
    #webform-submission-apply-for-admission-form .form-item-student-s-dob,
    #webform-submission-apply-for-admission-form .form-item-marks-in-12th-percentage-,
-   #webform-submission-apply-for-admission-form .form-item-do-you-have-passport-{ width:47%; float:left;}
+   #webform-submission-apply-for-admission-form .form-item-do-you-have-passport-{ width:48%; float:left;}
    #webform-submission-apply-for-admission-form .form-item-student-s-name,
    #webform-submission-apply-for-admission-form .form-item-mobile-number,
    #webform-submission-apply-for-admission-form .form-item-marks-in-12th-percentage-{ margin-right:3%;}
    #webform-submission-apply-for-admission-form #edit-marks-in-12th-percentage-{ width:95%;}
    
    #webform-submission-apply-for-admission-form #edit-actions{ width:100%; overflow:hidden;}
-	
+
+   /*contact us form*/
+   #contact-message-feedback-form .form-item-name,
+   #contact-message-feedback-form .form-item-mail{width:48%; float:left;}
+   #contact-message-feedback-form .form-item-mail{ float:right;}
+   #contact-message-feedback-form .form-item-name{ margin-right:3%;}
+   #contact-message-feedback-form #edit-subject-wrapper{ width:100%; clear:both;}
+   
+   
 }
