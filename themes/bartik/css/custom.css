@@ -65,11 +65,13 @@ ul.sf-menu.sf-accordion li:hover{background-color:#ececec;}
 
 /*form*/
 .webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select,
-.webform-submission-quick-enquiry-for-admission-form input[type="submit"]{ width:100%;}
-.webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select{ background-color:#f7f7f7; border-radius:3px;}
-.webform-submission-quick-enquiry-for-admission-form input:focus, .webform-submission-quick-enquiry-for-admission-form select:focus{ outline:none; box-shadow:inset 0 0 2px #ddd; background-color:#fff;}
-.button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]{ background-image:none; background-color:#614017; border:none; color:#fff; font-weight:600; font-size:16px; line-height:1.2; padding:10px 15px;}
-.button:hover, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]:hover{ background-color:#563711;}
+.webform-submission-quick-enquiry-for-admission-form input[type="submit"],
+input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, select.form-select, input[type="text"], input[type="number"], input[type="date"]{ width:100%;}
+input[type="number"]{ width:98%;}
+.webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select, input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, select.form-select, input[type="text"], input[type="number"], input[type="date"]{ background-color:#f7f7f7; border-radius:3px; border:1px solid #CCCCCC;}
+.webform-submission-quick-enquiry-for-admission-form input:focus, .webform-submission-quick-enquiry-for-admission-form select:focus,input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, select.form-select, input[type="text"], input[type="number"], input[type="date"]{ outline:none; box-shadow:inset 0 0 2px #ddd; background-color:#fff;}
+.button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"], .form-actions .button{ background-image:none; background-color:#614017; border:none; color:#fff; font-weight:600; font-size:16px; line-height:1.2; padding:10px 15px; border-radius:3px; }
+.button:hover, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]:hover, .form-actions .button:hover{ background-color:#563711;}
 .round-image, #block-homepagebanner img{padding:3px; border:1px solid #e4e4e4; border-radius:3px;}
 
 /*table*/
@@ -148,6 +150,9 @@ ul.sf-menu.sf-accordion li:hover{background-color:#ececec;}
 .site-footer__bottom .content{ padding:0;}
 .site-footer__bottom p{ margin:0;}
 .limited-seat-available a, .limited-seat-available a:hover, .limited-seat-available a:active, .limited-seat-available a:visited{ color:#fff; text-decoration:none;}
+/*contact us page*/
+#contact-message-feedback-form .contact-form #edit-name, #contact-message-feedback-form .contact-form #edit-mail{ width:100%;}
+#contact-message-feedback-form .contact-form textarea{ max-height:190px;}
 
 @media all and (max-width:767px){
 	/*home page container*/
@@ -183,8 +188,8 @@ ul.sf-menu.sf-accordion li:hover{background-color:#ececec;}
 	ul.sf-menu.sf-style-white li ul li a{ color:#fff; padding:18px 30px;}
    
    #page-wrapper .promotion-content{ margin-bottom:0;}
-   .webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select{ padding-top:8px; padding-bottom:8px;}
-   .button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]{ padding:14px 15px;}
+   .webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select, input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, select.form-select, input[type="text"], input[type="number"], input[type="date"]{ padding-top:8px; padding-bottom:8px;}
+   .button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"], .form-actions .button{ padding:14px 15px;}
    
    /*table design*/
    .views-element-container table th{ padding:20px 5px; font-size:14px;}
