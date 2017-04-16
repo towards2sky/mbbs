@@ -147,6 +147,8 @@ ul.sf-menu.sf-accordion li:hover{background-color:#ececec;}
 .site-footer__bottom{ margin-top:20px;}
 .site-footer__bottom .content{ padding:0;}
 .site-footer__bottom p{ margin:0;}
+.limited-seat-available a, .limited-seat-available a:hover, .limited-seat-available a:active, .limited-seat-available a:visited{ color:#fff; text-decoration:none;}
+
 @media all and (max-width:767px){
 	/*home page container*/
 	.region-promotion-content #block-homepagebanner{ float:none; width:100%;}
@@ -162,10 +164,32 @@ ul.sf-menu.sf-accordion li:hover{background-color:#ececec;}
    h3, .h3{font-size:24px; line-height:1;}
    h4, .h4 { font-size:21px; line-height:1;}
    h5, .h5, h6, .h6{ font-size:18px; line-height:1.2;}
-   
-   /*main menu*/
-   ul.sf-menu.sf-style-white{ float:none; text-align:center; background-color:#614017;}
+   .site-branding__logo{ padding-top:17px;}
+   /*main menu or header*/
+   .layout-container{ max-width:100%;}
+   ul.sf-menu.sf-style-white{ float:none; text-align:center; background-color:#614017; border-top:1px solid #614017; border-bottom:1px solid #614017; margin:0;}
    ul.sf-menu li{ float:none; display:inline-block;}
+   ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar, .region-primary-menu .menu a{ background:none;}
+   .region-primary-menu .menu a{ color:#fff; text-shadow:none;}
+   ul.sf-menu.sf-style-white a, ul.sf-menu.sf-style-white a:visited, ul.sf-menu.sf-style-white span.nolink{ color:#fff; padding:20px 30px;}
+   ul.sf-menu.sf-style-white li:hover, ul.sf-menu.sf-style-white li:hover, ul.sf-menu.sf-style-white li.sfHover{background-color:#54350e;}
+   ul.menu a.is-active{ background-color:#54350e; color:#fff;}
+   
+   ul.sf-menu.sf-style-white a:focus, ul.sf-menu.sf-style-white a:hover, ul.sf-menu.sf-style-white span.nolink:hover{background:none;}
+   
+	ul.sf-menu.sf-style-white li ul li{ background-color:#65451d;}
+	ul.sf-menu.sf-style-white li ul{ box-shadow:none; margin-top:22px;}
+	ul.sf-menu.sf-style-white li ul li:hover, ul.sf-menu.sf-style-white li.active-trail, ul.sf-menu.sf-style-white li ul li.active-trail{ background-color:#54350e;}
+	ul.sf-menu.sf-style-white li ul li a{ color:#fff; padding:18px 30px;}
+   
+   #page-wrapper .promotion-content{ margin-bottom:0;}
+   .webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select{ padding-top:8px; padding-bottom:8px;}
+   .button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]{ padding:14px 15px;}
+   
+   /*table design*/
+   .views-element-container table th{ padding:20px 5px; font-size:14px;}
+   .views-element-container table td{padding:18px 5px; font-size:14px;}
+   .views-element-container table{ margin-bottom:50px;}
    
    /*footer section*/
    .site-footer__top h2{ font-size:21px;}
