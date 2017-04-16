@@ -72,7 +72,7 @@ input[type="number"]{ width:98%;}
 .webform-submission-quick-enquiry-for-admission-form input:focus, .webform-submission-quick-enquiry-for-admission-form select:focus,input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, select.form-select, input[type="text"], input[type="number"], input[type="date"]{ outline:none; box-shadow:inset 0 0 2px #ddd; background-color:#fff;}
 .button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"], .form-actions .button{ background-image:none; background-color:#614017; border:none; color:#fff; font-weight:600; font-size:16px; line-height:1.2; padding:10px 15px; border-radius:3px; }
 .button:hover, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]:hover, .form-actions .button:hover{ background-color:#563711;}
-.round-image, #block-homepagebanner img{padding:3px; border:1px solid #e4e4e4; border-radius:3px;}
+.round-image, #block-homepagebanner img, .image-style-medium{padding:3px; border:1px solid #e4e4e4; border-radius:3px;}
 
 /*table*/
 .views-view-table caption{ text-align: left; margin-bottom: 20px;}
@@ -149,7 +149,7 @@ input[type="number"]{ width:98%;}
 .site-footer__bottom{ margin-top:20px;}
 .site-footer__bottom .content{ padding:0;}
 .site-footer__bottom p{ margin:0;}
-.limited-seat-available a, .limited-seat-available a:hover, .limited-seat-available a:active, .limited-seat-available a:visited{ color:#fff; text-decoration:none;}
+.limited-seat-available a, .limited-seat-available a:hover, .limited-seat-available a:active, .limited-seat-available a:visited{ color:#fff; text-decoration:none; border:none;}
 /*contact us page*/
 #contact-message-feedback-form .contact-form #edit-name, #contact-message-feedback-form .contact-form #edit-mail{ width:100%;}
 #contact-message-feedback-form .contact-form textarea{ max-height:190px;}
@@ -199,5 +199,19 @@ input[type="number"]{ width:98%;}
    /*footer section*/
    .site-footer__top h2{ font-size:21px;}
 
+   /*admission-form form*/
+   #webform-submission-apply-for-admission-form #edit-prefer-university-for-admission--wrapper{ width:100%;}
+   #webform-submission-apply-for-admission-form .form-item-student-s-name,
+   #webform-submission-apply-for-admission-form .form-item-email-address,
+   #webform-submission-apply-for-admission-form .form-item-mobile-number,
+   #webform-submission-apply-for-admission-form .form-item-student-s-dob,
+   #webform-submission-apply-for-admission-form .form-item-marks-in-12th-percentage-,
+   #webform-submission-apply-for-admission-form .form-item-do-you-have-passport-{ width:47%; float:left;}
+   #webform-submission-apply-for-admission-form .form-item-student-s-name,
+   #webform-submission-apply-for-admission-form .form-item-mobile-number,
+   #webform-submission-apply-for-admission-form .form-item-marks-in-12th-percentage-{ margin-right:3%;}
+   #webform-submission-apply-for-admission-form #edit-marks-in-12th-percentage-{ width:95%;}
+   
+   #webform-submission-apply-for-admission-form #edit-actions{ width:100%; overflow:hidden;}
 	
 }
