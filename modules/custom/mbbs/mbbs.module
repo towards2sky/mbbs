@@ -4,10 +4,9 @@
  */
 
 function mbbs_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
-
     //$node = $form_state->getFormObject()->getEntity();
-    //kint($form['title']);
-
+  //  kint($form_id);
+//exit;
     if($form_id == 'node_admission_form_form'){
         //drupal_set_title('Suggest a Charity');
 //        kint($form['#title']);
@@ -16,12 +15,18 @@ function mbbs_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_stat
 
         //kint($form['#validate']);
 //        $form['#validate'][] = 'Drupal\mbbs\Controller\FirstController::custom_form_validate';
-
     }
+
 
     if($form_id == 'node_quick_apply_form'){
 //        kint($form['#title']);
         $form['actions']['submit']['#value'] = t('Submit');
+    }
+
+    if($form_id == 'contact_message_feedback_form') {
+      //  if (strpos($form_id, 'contact_message_') !== FALSE) {
+            $form['actions']['preview']['#access'] = FALSE;
+      //  }
     }
 }
 
