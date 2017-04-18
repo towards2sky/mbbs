@@ -154,6 +154,10 @@ input[type="number"]{ width:98%;}
 #contact-message-feedback-form #edit-name, #contact-message-feedback-form #edit-mail{ width:100%;}
 #contact-message-feedback-form textarea{ max-height:190px;}
 
+/*university logo or title*/
+.fee-structure-title{ display:table;}
+.university-logo{display:table-cell;}
+.university-name{display:table-cell; vertical-align:middle; padding-left:20px;}
 
 @media all and (max-width:767px){
 	/*home page container*/
