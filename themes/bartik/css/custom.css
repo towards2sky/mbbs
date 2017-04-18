@@ -50,7 +50,7 @@ h5, .h5, h6, .h6 {font-size:16px; line-height:1.2;}
 /*header*/
 #header{ background-color: #fff;}
 .region-header .site-branding{ float: none; margin: 0 auto; text-align: center;}
-.site-branding__name a{ color:#333;}
+.site-branding__name a{ color:#fff;}
 .site-branding__text{ text-align:left;}
 /*main navigations*/
 div.sf-accordion-toggle.sf-style-white a{ display:block; background-color:#614017; border:none;}
@@ -174,7 +174,7 @@ input[type="number"]{ width:98%;}
    h3, .h3{font-size:24px; line-height:1;}
    h4, .h4 { font-size:21px; line-height:1;}
    h5, .h5, h6, .h6{ font-size:18px; line-height:1.2;}
-   .site-branding__logo{ padding-top:17px;}
+   .site-branding__logo{ /*padding-top:17px;*/}
    /*main menu or header*/
    .layout-container{ max-width:100%;}
    ul.sf-menu.sf-style-white{ float:none; text-align:center; background-color:#614017; border-top:1px solid #614017; border-bottom:1px solid #614017; margin:0;}
