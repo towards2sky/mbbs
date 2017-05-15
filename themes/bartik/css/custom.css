@@ -53,8 +53,8 @@ h5, .h5, h6, .h6 {font-size:16px; line-height:1.2;}
 .site-branding__name a{ color:#fff;}
 .site-branding__text{ text-align:left;}
 /*main navigations*/
-div.sf-accordion-toggle.sf-style-white a{ display:block; background-color:#614017; border:none;}
-div.sf-accordion-toggle.sf-style-white a.sf-expanded, ul.sf-menu.sf-style-white.sf-accordion li.sf-expanded{ background-color:#614017;}
+div.sf-accordion-toggle.sf-style-white a{ display:block; background-color:#003b5f; border:none;}
+div.sf-accordion-toggle.sf-style-white a.sf-expanded, ul.sf-menu.sf-style-white.sf-accordion li.sf-expanded{ background-color:#003b5f;}
 ul.sf-menu.sf-accordion, ul.sf-menu.sf-accordion ul, ul.sf-menu.sf-accordion li{ border-bottom:1px solid #cfcfcf;}
 ul.sf-menu.sf-accordion li:last-child{ border-bottom:none;}
 ul.sf-menu.sf-style-white a, ul.sf-menu.sf-style-white a:visited, ul.sf-menu.sf-style-white span.nolink{ text-align:left; color:#333; padding:15px 1em; font-weight:600; border-radius:0; margin:0;}
@@ -70,8 +70,8 @@ input.form-text, input.form-tel, input.form-email, input.form-url, input.form-se
 input[type="number"]{ width:98%;}
 .webform-submission-quick-enquiry-for-admission-form input, .webform-submission-quick-enquiry-for-admission-form select, input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, select.form-select, input[type="text"], input[type="number"], input[type="date"]{ background-color:#f7f7f7; border-radius:3px; border:1px solid #CCCCCC;}
 .webform-submission-quick-enquiry-for-admission-form input:focus, .webform-submission-quick-enquiry-for-admission-form select:focus,input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-file, input.form-number, input.form-color, textarea.form-textarea, select.form-select, input[type="text"], input[type="number"], input[type="date"]{ outline:none; box-shadow:inset 0 0 2px #ddd; background-color:#fff;}
-.button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"], .form-actions .button{ background-image:none; background-color:#614017; border:none; color:#fff; font-weight:600; font-size:16px; line-height:1.2; padding:10px 15px; border-radius:3px; }
-.button:hover, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]:hover, .form-actions .button:hover{ background-color:#563711;}
+.button, .webform-submission-quick-enquiry-for-admission-form input[type="submit"], .form-actions .button{ background-image:none; background-color:#116fa9; border:none; color:#fff; font-weight:600; font-size:16px; line-height:1.2; padding:10px 15px; border-radius:3px; margin-top:10px; }
+.button:hover, .webform-submission-quick-enquiry-for-admission-form input[type="submit"]:hover, .form-actions .button:hover{ background-color:#012a44;}
 .round-image, .image-style-medium{padding:3px; border:1px solid #e4e4e4; border-radius:3px;}
 
 /*table*/
@@ -155,9 +155,19 @@ input[type="number"]{ width:98%;}
 #contact-message-feedback-form textarea{ max-height:190px;}
 
 /*university logo or title*/
-.fee-structure-title{ display:table;}
+.fee-structure-title{ display:table; margin-bottom:15px;}
 .university-logo{display:table-cell;}
+.university-logo a{ border-bottom:none;}
 .university-name{display:table-cell; vertical-align:middle; padding-left:20px;}
+
+/*-----accordion-----*/
+.ui-widget-content a, .ui-widget-content a:hover, .ui-widget-content a:active, .ui-widget-content a:visited{ color:#fff; text-decoration:none; border:none; margin-top:10px; font-size:14px; line-height:1.2; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{ text-decoration:none; border:none;}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{text-decoration:none; border:none;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ background-image:none; background-color:#1b1e24;}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{ color:#fff;}
+.ui-accordion .ui-accordion-header{ padding:10px .5em 10px 2.2em;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{background-image:none; background-color:#1b1e24;}
 
 @media all and (max-width:767px){
 	/*home page container*/
@@ -177,19 +187,19 @@ input[type="number"]{ width:98%;}
    .site-branding__logo{ /*padding-top:17px;*/}
    /*main menu or header*/
    .layout-container{ max-width:100%;}
-   ul.sf-menu.sf-style-white{ float:none; text-align:center; background-color:#614017; border-top:1px solid #614017; border-bottom:1px solid #614017; margin:0;}
+   ul.sf-menu.sf-style-white{ float:none; text-align:center; background-color:#003b5f; border-top:1px solid #003b5f; border-bottom:1px solid #003b5f; margin:0;}
    ul.sf-menu li{ float:none; display:inline-block;}
    ul.sf-menu.sf-style-white li, ul.sf-menu.sf-style-white.sf-navbar, .region-primary-menu .menu a{ background:none;}
    .region-primary-menu .menu a{ color:#fff; text-shadow:none;}
    ul.sf-menu.sf-style-white a, ul.sf-menu.sf-style-white a:visited, ul.sf-menu.sf-style-white span.nolink{ color:#fff; padding:20px 30px;}
-   ul.sf-menu.sf-style-white li:hover, ul.sf-menu.sf-style-white li:hover, ul.sf-menu.sf-style-white li.sfHover{background-color:#54350e;}
-   ul.menu a.is-active{ background-color:#54350e; color:#fff;}
+   ul.sf-menu.sf-style-white li:hover, ul.sf-menu.sf-style-white li:hover, ul.sf-menu.sf-style-white li.sfHover{background-color:#012a44;}
+   ul.menu a.is-active{ background-color:#012a44; color:#fff;}
    
    ul.sf-menu.sf-style-white a:focus, ul.sf-menu.sf-style-white a:hover, ul.sf-menu.sf-style-white span.nolink:hover{background:none;}
    
-	ul.sf-menu.sf-style-white li ul li{ background-color:#65451d;}
+	ul.sf-menu.sf-style-white li ul li{ background-color:#003b5f;}
 	ul.sf-menu.sf-style-white li ul{ box-shadow:none; margin-top:22px;}
-	ul.sf-menu.sf-style-white li ul li:hover, ul.sf-menu.sf-style-white li.active-trail, ul.sf-menu.sf-style-white li ul li.active-trail{ background-color:#54350e;}
+	ul.sf-menu.sf-style-white li ul li:hover, ul.sf-menu.sf-style-white li.active-trail, ul.sf-menu.sf-style-white li ul li.active-trail{ background-color:#012a44;}
 	ul.sf-menu.sf-style-white li ul li a{ color:#fff; padding:18px 30px;}
    
    #page-wrapper .promotion-content{ margin-bottom:0;}
